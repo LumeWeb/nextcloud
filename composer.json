@@ -1,0 +1,24 @@
+{
+  "name": "lumeweb/nextcloud",
+  "description": "",
+  "minimum-stability": "dev",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Derrick Hammer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "OCA\\Skynet\\": "lib/"
+    }
+  },
+  "require": {
+    "lumeweb/php-filesystem": "dev-master"
+  }
+  ,
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
+  }
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>lume-drive</id>
+    <name>Lume Drive</name>
+    <summary>Lume Drive</summary>
+    <description><![CDATA[Lume Drive]]></description>
+    <version>0.1.0</version>
+    <licence>mit</licence>
+    <author mail="contact@lumeweb.com">Derrick Hammer</author>
+    <namespace>Lume</namespace>
+    <category>files</category>
+    <bugs>https://github.com/LumeWeb/nextcloud</bugs>
+    <dependencies>
+        <nextcloud min-version="22 "/>
+        <php min-version="7.4" min-int-size="64"/>
+        <lib>curl</lib>
+    </dependencies>
+</info>
